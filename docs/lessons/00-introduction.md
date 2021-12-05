@@ -13,7 +13,7 @@ We will be using a javascript library called [*p5*](https://p5js.org/) that allo
 
 ## Installation
 
-I have an amazing template ready for you and I would highly recommend you use it for all your *p5* action:
+I have an amazing template ready for you and I would highly recommend you use it:
 :::tip Download
 Download the template and check out the *ReadMe* to install everything!<br/>
 https://github.com/JulesFouchy/p5Template<br/>

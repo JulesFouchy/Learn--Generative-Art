@@ -27,7 +27,6 @@ module.exports = {
           label: 'Lessons',
         },
         {to: '/resources', label: 'Resources', position: 'left'},
-        {to: '/tools', label: 'Tools', position: 'left'},
         {
           href: 'https://github.com/JulesFouchy/Learn--Generative-Art/issues',
           position: 'right',
