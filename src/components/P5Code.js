@@ -3,7 +3,7 @@ import React from 'react'
 function P5Code({code}) {
   return (
     <script type="text/p5">
-        {code}
+        {code.replaceAll(";br", "")}
     </script>
   );
 }
