@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="generator" content="Docusaurus v2.0.0-beta.6">
 <title data-react-helmet="true">Useful Functions | Generative Art</title><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" property="og:url" content="https://julesfouchy.github.io//Learn--Generative-Art/docs/lessons/Beginner Level/useful-functions"><meta data-react-helmet="true" name="docusaurus_locale" content="en"><meta data-react-helmet="true" name="docusaurus_version" content="current"><meta data-react-helmet="true" name="docusaurus_tag" content="docs-default-current"><meta data-react-helmet="true" property="og:title" content="Useful Functions | Generative Art"><meta data-react-helmet="true" name="description" content="random"><meta data-react-helmet="true" property="og:description" content="random"><link data-react-helmet="true" rel="shortcut icon" href="/Learn--Generative-Art/img/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://julesfouchy.github.io//Learn--Generative-Art/docs/lessons/Beginner Level/useful-functions"><link data-react-helmet="true" rel="alternate" href="https://julesfouchy.github.io//Learn--Generative-Art/docs/lessons/Beginner Level/useful-functions" hreflang="en"><link data-react-helmet="true" rel="alternate" href="https://julesfouchy.github.io//Learn--Generative-Art/docs/lessons/Beginner Level/useful-functions" hreflang="x-default"><script data-react-helmet="true" src="https://julesfouchy.github.io/p5.js-widget/p5-widget.js"></script><link rel="stylesheet" href="/Learn--Generative-Art/assets/css/styles.809756d1.css">
-<link rel="preload" href="/Learn--Generative-Art/assets/js/runtime~main.89d4ae0a.js" as="script">
-<link rel="preload" href="/Learn--Generative-Art/assets/js/main.586b7bca.js" as="script">
+<link rel="preload" href="/Learn--Generative-Art/assets/js/runtime~main.b773ea10.js" as="script">
+<link rel="preload" href="/Learn--Generative-Art/assets/js/main.f79e5629.js" as="script">
 </head>
 <body>
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
@@ -18,9 +18,9 @@ ellipse(
 )
 </script><br><br><p>It can also give you a random element from a list:</p><script type="text/p5">
 const colorsList = [&quot;#4287f5&quot;, &quot;#f0243f&quot;, &quot;#94f268&quot;]
-;br
+
 const myColor = random(colorsList) // Pick a random color from the list
-;br
+
 fill(myColor)
 ellipse(width/2, height/2, 100)
 </script><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_31ik" id="lerp-and-lerpcolor"></a><code>lerp</code> and <code>lerpColor</code><a class="hash-link" href="#lerp-and-lerpcolor" title="Direct link to heading">#</a></h2><p>This is basically what allows you to make gradients:</p><script type="text/p5">
@@ -40,7 +40,7 @@ for (let t = 0; t &lt; 1; t += 0.1) {
 It has a lot of useful methods like getting its length or direction, and you can do math operations with them.<br>
 PS: check <a href="https://p5js.org/reference/#/p5.Vector" target="_blank" rel="noopener noreferrer">the documentation</a>!</p><p>One nice thing in particular is that you can create them from an angle:</p><script type="text/p5">
 translate(width/2, height/2) // put (0, 0) in the center of the canvas because the vectors will be distributed around (0, 0)
-;br
+
 for (let angle = 0; angle &lt; TWO_PI; angle += TWO_PI / 6) {
     const p = p5.Vector.fromAngle(angle).mult(100) // Vector of length 100 pointing in the direction of angle
     ellipse(p.x, p.y, 50)
@@ -51,7 +51,7 @@ It is using <em>Processing</em> and not <em>p5</em>, but the functions are exact
 (except that <code>pushMatrix()</code> is called <code>push()</code> in <em>p5</em>, and <code>popMatrix()</code> is called <code>pop()</code>.</p></div></div></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/Learn--Generative-Art/docs/lessons/Beginner Level/first-drawings"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« First Drawings</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/Learn--Generative-Art/docs/lessons/Beginner Level/exercises-loops"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Exercises: Loops »</div></a></div></nav></div></div><div class="col col--3"><div class="tableOfContents_35-E thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#random" class="table-of-contents__link"><code>random</code></a></li><li><a href="#lerp-and-lerpcolor" class="table-of-contents__link"><code>lerp</code> and <code>lerpColor</code></a></li><li><a href="#p5vector" class="table-of-contents__link"><code>p5.Vector</code></a></li><li><a href="#transforms-translate-rotate-and-scale" class="table-of-contents__link">Transforms: <code>translate</code>, <code>rotate</code> and <code>scale</code></a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Other classes</div><ul class="footer__items"><li class="footer__item"><a href="https://julesfouchy.github.io/Learn--Math-for-Art-and-Computer-Graphics" target="_blank" rel="noopener noreferrer" class="footer__link-item">Math for Art and Computer Graphics</a></li><li class="footer__item"><a href="https://julesfouchy.github.io/Learn--Cpp-And-Dev-Practices/" target="_blank" rel="noopener noreferrer" class="footer__link-item">C++ and Dev Practices</a></li></ul></div><div class="col footer__col"><div class="footer__title">Raise an issue!</div><ul class="footer__items"><li class="footer__item"><a href="https://github.com/JulesFouchy/Learn--Generative-Art/issues" target="_blank" rel="noopener noreferrer" class="footer__link-item">Ask a question</a></li><li class="footer__item"><a href="https://github.com/JulesFouchy/Learn--Generative-Art/issues" target="_blank" rel="noopener noreferrer" class="footer__link-item">Report a mistake</a></li><li class="footer__item"><a href="https://github.com/JulesFouchy/Learn--Generative-Art/issues" target="_blank" rel="noopener noreferrer" class="footer__link-item">Give me feedback</a></li></ul></div><div class="col footer__col"><div class="footer__title">Contact Me</div><ul class="footer__items"><li class="footer__item"><a href="https://discord.com/users/372812330742054914" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord</a></li><li class="footer__item"><a href="mailto:jules.fouchy@ntymail.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">E-Mail</a></li><li class="footer__item"><a href="https://github.com/JulesFouchy" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2021. Built with <a href="https://docusaurus.io/">Docusaurus</a>.
               <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
               </div></div></div></footer></div>
-<script src="/Learn--Generative-Art/assets/js/runtime~main.89d4ae0a.js"></script>
-<script src="/Learn--Generative-Art/assets/js/main.586b7bca.js"></script>
+<script src="/Learn--Generative-Art/assets/js/runtime~main.b773ea10.js"></script>
+<script src="/Learn--Generative-Art/assets/js/main.f79e5629.js"></script>
 </body>
 </html>
