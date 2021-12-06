@@ -10,7 +10,7 @@ Typescript is **exactly the same** as Javascript, with *optional* types on top o
 
 You can (optionally) specify a type after a variable, by using a colon: ```const x: number```.
 
-It is very usefull to specify the types expected by a function:
+It is very useful to specify the types expected by a function:
 
 ```typescript
 function doSomething(x: number, y: number, title: string): number {
