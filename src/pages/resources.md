@@ -1,9 +1,5 @@
 # Resources
 
-:::tip Brief
-Here are a lot of awesome resources that will help you in your learning journey.
-:::
-
 ## Documentation
 
 [*p5*'s documentation](https://p5js.org/reference/)
