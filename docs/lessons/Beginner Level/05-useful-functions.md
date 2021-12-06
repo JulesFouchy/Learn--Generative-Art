@@ -2,7 +2,6 @@
 title: Useful Functions
 ---
 import P5Code from "/src/components/P5Code"
-import Exercise from "/src/components/Exercise"
 
 <head>
 <script src="https://julesfouchy.github.io/p5.js-widget/p5-widget.js"></script>
