@@ -1,3 +1,5 @@
+import BrowserOnly from '@docusaurus/BrowserOnly';
+
 export const LoadP5Widget = ({}) => {
     const head_ID = document.getElementsByTagName("head")[0]
     const script_element = document.createElement('script')
@@ -7,4 +9,6 @@ export const LoadP5Widget = ({}) => {
     return (<div></div>)
 };
 
-<LoadP5Widget/>   
+<BrowserOnly>
+    {() => <LoadP5Widget/>}
+</BrowserOnly>
