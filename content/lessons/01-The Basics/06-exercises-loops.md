@@ -1,7 +1,7 @@
 ---
 title: "Exercises: Loops"
 ---
-import Exercise from "/src/components/Exercise"
+import Exercise from "../../../components/Exercise"
 
 ## Many rectangles
 

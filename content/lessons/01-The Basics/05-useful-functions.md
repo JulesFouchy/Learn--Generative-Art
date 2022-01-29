@@ -1,7 +1,7 @@
 ---
 title: Useful Functions
 ---
-import P5Code from "/src/components/P5Code"
+import P5Code from "../../../components/P5Code"
 import LoadP5Widget from "../_load_p5_widget.md"
 
 <LoadP5Widget/>
