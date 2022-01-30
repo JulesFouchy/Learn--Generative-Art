@@ -28,4 +28,4 @@ https://github.com/JulesFouchy/p5Template<br/>
 
 I tried my best to deliver the best learning experience possible. I am still a novice teacher though (and even if I were experienced, one never runs out of things to learn anyways). So your feedback is more than welcome and I will happily improve my classes with your help!
 
-To do so, feel free to reach out to me directly or [raise an issue on GitHub](https://github.com/JulesFouchy/Learn--Cpp-And-Dev-Practices/issues).
+To do so, feel free to reach out to me directly or [raise an issue on GitHub](https://github.com/JulesFouchy/Learn--Generative-Art/issues).
