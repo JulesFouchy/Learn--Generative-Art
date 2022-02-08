@@ -42,7 +42,7 @@ Here `title` is an optional parameter.
 :::info Going further
 Typescript has many more nice features: *enums*, *better classes*, *objects with well-defined fields* (called *interface*) *etc.*
 
-Check this out if you want to know more: [Typescript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+Check out the [Typescript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) if you want to know more.
 :::
 
 ## How do you use Javascript?
@@ -59,13 +59,13 @@ Use `const`, or `let`.
 const x = 10
 ```
 
-A variable declared with `const` cannot be changed afterwards. It is a good practice to try using `const` as often as possible.
+A variable declared with `const` cannot be changed afterwards. It is a good practice to use `const` when your variable doesn't change, because it makes it clearer to the reader (and to yourself) that you don't intend to change this variable for the moment.
 
 ```typescript
 let x = 10
 ```
 
-If you need a mutable variable, then it is perfectly fine to declare it with `let`.
+If you need a mutable variable, then it is perfectly fine to declare it with `let`. I would recommend to always start with a `const` variable, and then change it to `let` once you decide to make it vary in your program.
 
 And please, forget `var`. It is the old way of declaring variables and it can have confusing behaviour, so we introduced `const` and `let` in the language to replace `var`. Never ever use `var` again.
 
