@@ -2,6 +2,7 @@
 
 ## Algorithmic
 
+[inconvergent.net](https://inconvergent.net/)<br/>
 [Tim Holman - Generative Art Speedrun - An overview of generative art techniques in 20 minutes](https://www.youtube.com/watch?v=4Se0_w0ISYk)<br/>
 [Music Video - Max Cooper, Order From Chaos (video by Maxime Causeret)](https://www.youtube.com/watch?v=_7wKjTf_RlI)<br/>
 [Overview of Artworks and Styles](https://aiartists.org/generative-art-design)<br/>
