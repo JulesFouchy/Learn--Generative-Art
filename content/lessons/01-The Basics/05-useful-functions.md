@@ -31,6 +31,8 @@ fill(myColor)
 ellipse(width/2, height/2, 100)
 `}/>
 
+RANDOM SEED
+
 ## `lerp` and `lerpColor`
 
 This is basically what allows you to make gradients:
